@@ -1,0 +1,62 @@
+<!DOCTYPE html> <!--Indica la versión de html que se está usando, es simplemente una estructura y solo hay que usarla nomas-->
+<html lang="es"><!-- es la raíz en la cual específico el lenguaje-->
+<head><!--Sección del html donde se especifica metada, datos adicionales, se suman recursos, se especifica el título del proyecto, etc, info de la web-->
+    <meta charset="UTF-8"/><!--Es para que nos admita todo el abc de español por ejemplo ñ y tíldes-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/><!--Para que respete el ancho del dispositivo, evitar que se desborde-->
+    <title>Tarjeta de presentación</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"> <!-- este link indica de forma relativa de donde quiero que se capture 
+    el favicon para la web. El LINK nos permite poner recursos en la web mediante esta etiqueta mediante el atributo rel(relacion), href ruta, type tipo de elemento -->
+</head>
+<body>
+    <!--Este div se usa para, aqui, para limitar el ancho. nota, el problema de abusar del div es que es facil programar, pero matas el seo
+            recordar que div es asemantica y mata el seo. abusar de ella es una mala practica. h1 es semantico porque me dice que su contenido es un titulo
+            semantico es un article porque me dice que su contenido es un articulo que se puede seleccionar, nav porque me dice que su contenido es un enlace
+            de navegacion, etc. el div no dice nada. Google no usa div. Usar div solo para estructurar. WIX y Wordpress solo son plantillas que te dan
+            tu propio SEO porque son empresas enorme, si haces tu propia pagina tienes que optimizar al maximo el seo para que salgas arriba. Con wix ganas
+            tiempo pero pierdes personalizacion y seo -->
+    <article> <!--Esto marca toda la sección, en este caso es la sección principal, también se puede usar un main-->
+        <div> <!--Este div es para manejar las dimensiones de ancho-->
+            <div><!--Va a ser la tarjeta-->
+                <header><!-- será mi contenido principal-->
+                    <img src="https://i.postimg.cc/W3Ng798Y/414198626-248710784777227-2270941960376044936-n.jpg" alt="Foto de Alvaro Rodriguez"/>
+                </header>
+                <main><!-- Este será el contenido principal-->
+                    <h1>Alvaro Rodriguez</h1>
+                    <h2>👨‍💻Desarrollador Wweb Full Stack 👨‍💻| 👨‍⚖️Estudiante de Derecho👨‍⚖️| Supervisor de Ventas</h2>
+                    <p>Soy Álvaro, tengo 24 años, estudio Derecho y Desarrollo Web.
+                        dentro de los hobbies que tengo está la lecutra y tocar mi guitarra
+                        ya que con ella puedo relajarme y dar también momentos gratos a otros
+                        que no se lo esperan de tal forma. Vamos, que es como una terapia.</p>
+                </main>
+                <footer>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCE9whBrtYnLWrpzwk6z_JUA">
+                                    <img src="https://i.postimg.cc/dtPYcvbM/youtube.png" alt="YouTube" width="32px" height="32px" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/AlvaroRodrigoRodriguezBotto">
+                                    <img src="https://i.postimg.cc/5NBMxTJX/github.png" alt="GitHub" width="32px" height="32px" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/alvaro-rodrigo-rodriguez-botto-7763052b2/">
+                                    <img src="https://i.postimg.cc/J7BLFtdc/linkedin.png" alt="LinkedIn" width="32px" height="32px" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/alvarorodrigo.rodriguezbotto">
+                                    <img src="https://i.postimg.cc/7YHyZXZX/facebook.png" alt="GitHub" width="32px" height="32px" />
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </footer>
+            </div>
+        </div>
+    </article>
+</body>
+</html>
